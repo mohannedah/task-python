@@ -22,13 +22,12 @@ class QuestionLogger:
                     for i, choice in enumerate(question.choices):
                         print(i + 1, choice)
                     break  
-
             print('')
 
 
 
 # QuestionLogger violates the Open-Closed-Principle.
-# If we wanted to add a new type of question we would have to extent the switch statement even further which will make it much worse.
+# If we wanted to add a new type of question we would have to extend the switch statement even further which will make it look much worse.
 
 
 
@@ -71,5 +70,5 @@ class QuestionLogger:
     
 
 
-# Now if we wanted to add a new type of Question we would have to create a new class that implements the methods of ther Interface IQuestion.
+# Now if we wanted to add a new type of Question we would have to create a new class that implements the methods of the Interface IQuestion.
 # Without having to extend the switch statment which caused a main issue.

@@ -19,7 +19,7 @@ class OrderBurger(IOrderService):
 
 
 
-# OrderBurger implements IOrderService which has all the methods concerned with the orders and needs to be implemented in all of the sub-classes
+# OrderBurger implements IOrderService which has all the methods concerned with the orders and needs to be implemented in all of the sub-classes.
 # OrderBurger only worries about the orderBurger method and doesn't need to implement the orderFries method.
 
 
@@ -30,7 +30,6 @@ class IOrderBurger:
 
 
 class IOrderFries:
-
     def orderFries(quantity):
         pass
 
